@@ -1,0 +1,14 @@
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\obj\Debug\netcoreapp2.1\Animals.UI.csprojAssemblyReference.cache
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\obj\Debug\netcoreapp2.1\Animals.UI.csproj.CoreCompileInputs.cache
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\obj\Debug\netcoreapp2.1\Animals.UI.AssemblyInfoInputs.cache
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\obj\Debug\netcoreapp2.1\Animals.UI.AssemblyInfo.cs
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\bin\Debug\netcoreapp2.1\Animals.UI.deps.json
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\bin\Debug\netcoreapp2.1\Animals.UI.runtimeconfig.json
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\bin\Debug\netcoreapp2.1\Animals.UI.runtimeconfig.dev.json
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\bin\Debug\netcoreapp2.1\Animals.UI.dll
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\bin\Debug\netcoreapp2.1\Animals.UI.pdb
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\bin\Debug\netcoreapp2.1\Animals.library.dll
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\bin\Debug\netcoreapp2.1\Animals.library.pdb
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\obj\Debug\netcoreapp2.1\Animals.UI.csproj.CopyComplete
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\obj\Debug\netcoreapp2.1\Animals.UI.dll
+C:\revature\tovar-practice\week1\day3\animals\Animals.UI\obj\Debug\netcoreapp2.1\Animals.UI.pdb

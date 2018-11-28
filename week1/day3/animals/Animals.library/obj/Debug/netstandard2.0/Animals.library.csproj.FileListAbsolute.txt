@@ -1,0 +1,9 @@
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\obj\Debug\netstandard2.0\Animals.library.csprojAssemblyReference.cache
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\obj\Debug\netstandard2.0\Animals.library.csproj.CoreCompileInputs.cache
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\obj\Debug\netstandard2.0\Animals.library.AssemblyInfoInputs.cache
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\obj\Debug\netstandard2.0\Animals.library.AssemblyInfo.cs
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\bin\Debug\netstandard2.0\Animals.library.deps.json
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\bin\Debug\netstandard2.0\Animals.library.dll
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\bin\Debug\netstandard2.0\Animals.library.pdb
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\obj\Debug\netstandard2.0\Animals.library.dll
+C:\revature\tovar-practice\week1\day3\animals\Animals.library\obj\Debug\netstandard2.0\Animals.library.pdb

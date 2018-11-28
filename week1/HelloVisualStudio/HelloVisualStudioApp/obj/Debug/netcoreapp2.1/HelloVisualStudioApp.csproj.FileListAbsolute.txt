@@ -1,0 +1,11 @@
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\bin\Debug\netcoreapp2.1\HelloVisualStudioApp.deps.json
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\bin\Debug\netcoreapp2.1\HelloVisualStudioApp.runtimeconfig.json
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\bin\Debug\netcoreapp2.1\HelloVisualStudioApp.runtimeconfig.dev.json
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\bin\Debug\netcoreapp2.1\HelloVisualStudioApp.dll
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\bin\Debug\netcoreapp2.1\HelloVisualStudioApp.pdb
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\obj\Debug\netcoreapp2.1\HelloVisualStudioApp.csprojAssemblyReference.cache
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\obj\Debug\netcoreapp2.1\HelloVisualStudioApp.csproj.CoreCompileInputs.cache
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\obj\Debug\netcoreapp2.1\HelloVisualStudioApp.AssemblyInfoInputs.cache
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\obj\Debug\netcoreapp2.1\HelloVisualStudioApp.AssemblyInfo.cs
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\obj\Debug\netcoreapp2.1\HelloVisualStudioApp.dll
+C:\revature\tovar-practice\week1\HelloVisualStudio\HelloVisualStudioApp\obj\Debug\netcoreapp2.1\HelloVisualStudioApp.pdb

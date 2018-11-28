@@ -1,0 +1,11 @@
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\obj\Debug\netcoreapp2.1\CSharpBasicsApp.csproj.CoreCompileInputs.cache
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\obj\Debug\netcoreapp2.1\CSharpBasicsApp.AssemblyInfoInputs.cache
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\obj\Debug\netcoreapp2.1\CSharpBasicsApp.AssemblyInfo.cs
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\bin\Debug\netcoreapp2.1\CSharpBasicsApp.deps.json
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\bin\Debug\netcoreapp2.1\CSharpBasicsApp.runtimeconfig.json
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\bin\Debug\netcoreapp2.1\CSharpBasicsApp.runtimeconfig.dev.json
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\bin\Debug\netcoreapp2.1\CSharpBasicsApp.dll
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\bin\Debug\netcoreapp2.1\CSharpBasicsApp.pdb
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\obj\Debug\netcoreapp2.1\CSharpBasicsApp.dll
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\obj\Debug\netcoreapp2.1\CSharpBasicsApp.pdb
+C:\revature\tovar-practice\week1\CSharpBasics\CSharpBasicsApp\obj\Debug\netcoreapp2.1\CSharpBasicsApp.csprojAssemblyReference.cache
