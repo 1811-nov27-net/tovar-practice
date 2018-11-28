@@ -37,7 +37,7 @@ namespace Animals.UI
 
             animal = new Eagle();
 
-            // this is okay because both calsses are within/under the IAnimal type.
+            // this is okay because both classes are within/under the IAnimal type.
             // BUT - you're not allowed to do dog-specific or eagle-specific thing via this variable
             //... error: animal.Fly();
 
@@ -51,8 +51,8 @@ namespace Animals.UI
             // means you shouldn't write code needlessly tied to one specific implementation         
             
             // then you use the same code with multiple implementations of the calsses you're using
-
-            DisplayData(new Dog());
+            Dog d = new Dog();
+            DisplayData(d);
             DisplayData(new Eagle());
         }
 
