@@ -51,3 +51,83 @@ asdf = "asdf";
 // pair of braces, const prevents changing the value after first assignment.
 
 // use let and const always, never var or undeclared. 
+
+let obj = {
+    name: 'Axel',
+    skill: 100,
+    sayName: function() {console.log(this.name) },
+    saName2(name) {
+        console.log(this.name);
+    }
+};
+
+obj.sayName();
+
+
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+    this.sayName = function() {
+        console.log(this.name);
+    }
+}
+
+function Graduate (name,age, gradYear) {
+    this.__proto__ = new Person(name, age);
+    this.gradYear = gradYear;
+    // could have new methods too
+    
+}
+
+let axel = new Graduate("axel", 23, 2018);
+console.log(axel);
+
+// when js does property access (or assignment)
+// on an object, it first scans the object
+// if nothing is found, it then looks at that
+// object's __proto__, and on and go
+// in ES6, we have proper classes with inheritance.. 
+class Person2 {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+        this.sayName = function () {
+            console.log(this.name);
+        };
+    }
+}
+
+
+class Graduate2 extends Person { // "extends" instead of " : "
+    constructor(name, age, gradYear) {
+       super(name, age); // "super" instead of "base"
+        this.gradYear = gradYear;
+        // could have new methods too
+    }
+}
+
+
+// JS (ES5) IS object-oriented, but without classes
+// ES6 is object-oriented with classes
+// "OOP" is one paradigm of programming
+// "procedural" is anotheer - like C
+// "functional" is another, where functions (behavior) are
+// just another kind of data
+
+// new features in ES6: 
+/*
+- let, const
+- arrow functions
+- class, interface
+- method syntax for functions as properties
+- string interpolation
+- symbol tyupe for GUID's
+- new useful built in functions (e.g. string searching)
+- Promises for async stuff without call-backs
+- native modules (like namespace)
+- built-in Set and Map
+- "for of" look like "foreach"
+- getters and setters for properties like C#
+
+*/
+
