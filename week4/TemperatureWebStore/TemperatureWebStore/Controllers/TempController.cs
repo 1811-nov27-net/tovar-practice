@@ -52,69 +52,70 @@ namespace TemperatureWebStore.Controllers
         public ActionResult Create()
         {
 
-            return View();
+            return View(new TemperatureRecord { Time = DateTime.Now });
         }
-
+        public static HttpContent ToContent<T>(T obj)
+        {
+            // instead of this we can use PostAsJsonAsync, easier
+            string json = JsonConvert.SerializeObject(obj);
+            // declare the encoding (unicode)
+            // and the "media type" (JSON) of the thing to send in the request body
+            HttpContent content = new StringContent(json, Encoding.UTF8, "application/json");
+            return content;
+        }
         // POST: Temp/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(TemperatureRecord temps)
-        { 
+        {
             try
             {
-                var stringPayload = await Task.Run(() => JsonConvert.SerializeObject(temps));
+                // set unit to 1 (celsius)
+                temps.Unit = 1;
+                // use POST method, not GET, based on the route the service has defined
+                HttpResponseMessage response = await Client.PostAsync("https://localhost:44338/api/temperature", ToContent(temps));
 
-                var httpContent = new StringContent(stringPayload, Encoding.UTF8, "application/json");
-
-                if (ModelState.IsValid)
+                if (response.IsSuccessStatusCode)
                 {
-                    using (var httpClient = new HttpClient())
-                    {
-                        // Do the actual request and await the response
-                        var httpResponse = await httpClient.PostAsync("https://localhost:44338/api/temperature", httpContent);
-
-                        // If the response contains content we want to read it!
-                        if (httpResponse.Content != null)
-                        {
-                            var responseContent = await httpResponse.Content.ReadAsStringAsync();
-
-                            // From here on you could deserialize the ResponseContent back again to a concrete C# type using Json.Net
-                        }
-                    }
+                    return RedirectToAction(nameof(Index));
                 }
                 return View(temps);
             }
             catch
             {
-                return View();
+                return View(temps);
             }
         }
 
         // GET: Temp/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(int id)
         {
 
-            return View();
+            var json = await Client.GetStringAsync($"https://localhost:44338/api/temperature/{id}");
+            return View(JsonConvert.DeserializeObject<TemperatureRecord>(json));
         }
 
         // POST: Temp/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, IFormCollection temps)
+        public async Task<IActionResult> Edit(int id, TemperatureRecord temps)
         {
-            var stringPayload = await Task.Run(() => JsonConvert.SerializeObject(temps));
-
-            var httpContent = new StringContent(stringPayload, Encoding.UTF8, "application/json");
-
             try
             {
-              
-                var updated = httpContent.
-                return RedirectToAction(nameof(Index));
+                temps.Unit = 1;
+
+                var url = $"https://localhost:44338/api/temperature/{id}";
+                var reponse = await Client.PutAsJsonAsync(url, temps);
+
+                if(reponse.IsSuccessStatusCode)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(temps);
             }
             catch
             {
-                return View();
+                return View(temps);
             }
         }
 
